@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+   img{
+     height:300px;
+     width:150px;
+  
+  }
+  .img-hover-zoom--colorize img {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>MEMBERS BEHIND THE PAGE</p>
+
+</div>
+
+<h2 style="text-align:center">Contact Our Team</h2>
+<div class="row">
+    
+  <div class="column">
+  
+    <div class="card">
+        
+        <div class="img-hover-zoom--colorize"> <img src="https://cdn2.vectorstock.com/i/1000x1000/29/16/young-female-doctor-wearing-n95-respiratory-vector-29302916.jpg" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Dr. Sai Samhitha Pokuri</h2>
+              <p class="title">MD(General Surgeon)</p>
+              <p>Doctor Of Medicine in </br>
+              Internal Medicine Specialist.</p>
+              <p>samhithapokuri@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="column">
+    <div class="card">
+        <div class="img-hover-zoom--colorize">
+            <img src="https://cdn1.vectorstock.com/i/1000x1000/63/85/doctor-male-with-face-mask-isolated-icon-vector-30596385.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Dr.M.V.S.Vineeth</h2>
+              <p class="title">M.B.B.S, M.D</p>
+              <p>Bachelor of Medicine and A Bachelor of Surgery</br>Doctor of Medicine in Cardiology.</p>
+              <p>vineethmvs@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+        <div class="img-hover-zoom--colorize">
+            <img src="https://cdn3.vectorstock.com/i/1000x1000/27/17/doctor-male-with-face-mask-avatar-isolated-icon-vector-30592717.jpg" alt="John" style="width:100%">
+            <div class="container">
+              <h2>Dr.Dommeti Surya Vamsi</h2>
+              <p class="title">M.D-P.H.D</p>
+              <p>Doctor of Medicine in Dermatology and Master of Philosophy.</p>
+              <p>suryavamsidommeti@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  </div></div>
+  <div class="row">
+  <div class="column" style="margin-left: 270px;">
+   
+    <div class="card">
+        <div class="img-hover-zoom--colorize">
+            <img src="https://cdn5.vectorstock.com/i/1000x1000/26/39/doctor-male-with-face-mask-isolated-icon-vector-30592639.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Dr.Chetanya Miglani</h2>
+              <p class="title">B.M.S, M.S</p>
+              <p>Bachelor of Medical Sciences</br>Master of Surgery.
+              <p>chetanyamiglani@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="column">
+    <div class="card">
+        <div class="img-hover-zoom--colorize">
+            <img src="https://cdn1.vectorstock.com/i/1000x1000/07/15/young-male-doctor-with-face-mask-and-glasses-vector-29550715.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Dr.Geddam Durga Rao</h2>
+              <p class="title">D.O, M.S</p>
+              <p>Doctor of Osteopathic Medicine</br>Master of Surgery.
+              <p>durgaraogeddam@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+</body>
+</html>
